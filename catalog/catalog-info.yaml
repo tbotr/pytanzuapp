@@ -12,7 +12,7 @@ metadata:
     - tanzu
     - python
   annotations:
-    'backstage.io/kubernetes-label-selector': 'app.kubernetes.io/part-of=python-function'
+    backstage.io/kubernetes-label-selector: 'app.kubernetes.io/part-of=python-function'
 spec:
   type: service
   lifecycle: experimental
